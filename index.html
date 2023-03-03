@@ -1,12 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rahul Rajesh</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico">
 </head>
 <body>
+    <div id="top_container">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud">
+        <h1 class="head1">Rahul Rajesh</h1>
+        <p class="head2">MERN Stack Developer</p>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
+        <img src="images/mountain.png" alt="mountain">
+    </div>
+
+    <div class="middle-container">
+        <div class="profile">
+          <img src="https://lh3.googleusercontent.com/HCrf1h1mzwGr_C3SwayyTcCNbKe7S419K5U5rZC3FSXFK1OMhssuZpEpkVDRX_CdHGcuUqornEbR9FtLmy_z9VCHI-QRDaNZgD3rbXfxiJJzn6DIUfUjTxf40YEVIi00IZAsUbVeGW_KC6DwNFUvcHxUspMXSOv9N-ZPeeTojYnhFqKi3mkU07DcM28_CugqaCMnXWwl57ZVyv2iY1udkDYJaYNuPEXe9hgE_roQn0FamZ7peSqILgKCWhDK8UvfLkMTOPEsSgQGHEEDEJF7VOxN5_1KC6-svwsCENN87R_8MWD1CmWxDeZwHv74GdJNoBLSkz6K6gR6QGM5X8WJ6boqxueF92t7JVua1r4UvqZxdpKfFV29jCCdQnsfmebmQl8SrK2CbaWO7C1UMTAOLUDYPn8poeLiF747TDCU3n5eEY6bjyzvXQ6ep5SIG2FCNFBAXz2VK5AWJz0QGCQ4rK5x6uilVFDJ7YtLuztELsVNLXYFYRkUETJUqZ8jiyQGZK5uY1OjeazBkBgJvRfdOSuOq-fweQymPcROzEKxOYXjB6BQDwRcfdCV-JEupxz7Pb1w-RHB5nFb7Vzyj5Zd36tcb9wcs7LHyYOE9fheQO0-ZQds-42nzC9X5PEsNWXTrzMtHoroLWpRoDs78pY1uYPj47SuMHcWSN9RKwXELHRYQu_B3UsLwkYhCP_g3djGkmO7wWcx2o7EKkvV3_-abhVBto76lRedXyItWaR__HLjjC_DSNKOmFlvlAhpbp_04NWFc7D3pnfLJddVmajDD70Xs41cZbQ0msIcLd1Rz-53vuc2tk01dxtnAOR5_Tj8SNY_HuVLKxRAZw0Nm8__Ce22wMtcZX5KjCxiT8gp0s3XHK8c8u92jg9CpvgNNdujcf-VTIPFDzqDIEIZlMNo8qhmwXFQXt1VLe7iR_u-liN3=s220-no?authuser=0" alt="profile">
+          <h2>Hello.</h2>
+          <p class="introduction">Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
+        </div>
+        <hr>
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img class="skill-img" src="data:image/png;base64,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" alt="mongo db">
+            <h3>Lorem & Ipsum</h3>
+            <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+          </div>
+          <div class="skill-row">
+            <img class="skill-img" src="data:image/png;base64,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" alt="express Js">
+            <h3>Lorem Ipsum Dolor</h3>
+            <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+          </div>
+        </div>
+        <div class="skill-row">
+          <img class="skill-img" src="https://www.datocms-assets.com/45470/1631110818-logo-react-js.png" alt="express Js">
+          <h3>Lorem Ipsum Dolor</h3>
+          <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+        </div>
+        <div class="skill-row">
+          <img class="skill-img" src="http://cdn.shopify.com/s/files/1/0561/0215/8500/products/15_a8e09017-7f5d-4e32-a9d4-f5b8cdcee9e7.jpg?v=1619884829" alt="express Js">
+          <h3>Lorem Ipsum Dolor</h3>
+          <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+        </div>
+      </div>
+          <hr>
+          <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+            <p class="contact-message">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+            <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+          </div>
+        </div>
+        
+      </div>
     
+      
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+        <p>© Name Surname.</p>
+      </div>
 </body>
 </html>
